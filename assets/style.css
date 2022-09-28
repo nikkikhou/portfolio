@@ -1,7 +1,8 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: oldlace;
 }
 
 header {
@@ -46,6 +47,14 @@ figure a {
 
 }
 
+#banner {
+  position: relative;
+}
+
+#banner .pictext{
+  position: absolute;
+  right: 0;
+}
 
 
 .title {
@@ -65,7 +74,8 @@ figure a {
   display: flex;
   flex-wrap: wrap;
   justify-content: baseline;
-  width: 75%;
+  width: 70%;
+  padding-left: 10px;
 }
 
 .items a:hover {
@@ -144,9 +154,13 @@ h2 {
   margin-left: auto;
   width: fit-content;
   height: 100%;
-  align-items: center;
+  align-items: flex-end;
   padding-right: 10px;
   font-size: 30px;
+  color: navy;
+  font-weight: 900;
+  inline-size: 110px;
+  overflow-wrap: break-word;
 }
 
 h2 ul li a {
@@ -158,10 +172,13 @@ h2 ul li a {
 .media {
   display: flex;
   align-self: center; 
+  padding-left: 10px;
 }
 
 .details {
   width: 75%;
+  padding-left: 10px;
+  
 }
 
 .details ul li {
@@ -174,6 +191,10 @@ h2 ul li a {
   justify-content: space-between;
   align-content: center;
   padding: 20px;
+}
+
+.details a {
+  color: #A1E3FF;
 }
 
 
