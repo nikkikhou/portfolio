@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+h1 {
+  background-color: #A1E3FF;
+  border-radius: 10px;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 50px;
+}
+
+p {
+  width: 75%;
+  text-align: end;
+}
+
+nav {
+  padding-right: 15px;
+  justify-content: space-around;
+}
+
+header ul li {
+  display: inline;
+  color: #A1E3FF;
+}
+
+header ul li a {
+  color: #A1E3FF;
+}
+
+figure {
+  margin: auto;
+  
+}
+figure a {
+
+}
+
+
+
+.title {
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  width: 75%;
+}
+
+.items a:hover {
+    opacity: .3;
+
+}
+
+.item {
+  margin: 4px;
+  border: 6px #A1E3FF solid;
+  
+}
+
+.item img {
+    width: 100%;
+  }
+
+
+.surf-report {
+    width: 75%;
+}
+
+.led-wall {
+    width: 37%;
+}
+
+.calculator {
+    width: 37%;
+}
+
+
+.pastel-puzzles {
+    width: 37%;
+}
+
+.run-buddy  {
+    width: 37%;
+  }
+
+.pictext {
+  position: absolute;
+  bottom: 45px;
+  left: 5;
+  background-color: #A1E3FF;
+  color: white;
+  font-size: small;
+  padding: 5px;
+}
+
+.surf-report a {
+  position: relative;
+
+}
+
+.led-wall a {
+  position: relative;
+  padding: 0;
+  
+}
+
+.calculator a {
+  position: relative;
+  padding: 0;
+}
+
+.pastel-puzzles a {
+  position: relative;
+}
+
+.run-buddy a {
+  position: relative;
+}
+
+h2 {
+  border-right: 5px navy solid;
+  margin-left: auto;
+  width: fit-content;
+  height: 100%;
+  align-items: center;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+h2 ul li a {
+  display: flex;
+  justify-content: space-between;
+  color: navy;
+}
+
+.media {
+  display: flex;
+  align-self: center; 
+}
+
+.details {
+  width: 75%;
+}
+
+.details ul li {
+  display: inline;
+  color: #A1E3FF;
+}
+
+.details ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+
+
+@media (max-width: 576px) {
+
+    .led-wall {
+        width: 100%;
+    }
+    
+    .calculator {
+        width: 100%;
+    }  
+
+    .pastel-puzzles {
+        width: 100%;
+    }
+    
+    .run-buddy  {
+        width: 100%;
+      }
+
+ }
