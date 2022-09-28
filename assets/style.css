@@ -43,9 +43,6 @@ figure {
   margin: auto;
   
 }
-figure a {
-
-}
 
 #banner {
   position: relative;
@@ -83,6 +80,12 @@ figure a {
 
 }
 
+.items a {
+  position: relative;
+  padding: 0;
+
+}
+
 .item {
   margin: 4px;
   border: 6px #A1E3FF solid;
@@ -98,22 +101,20 @@ figure a {
     width: 75%;
 }
 
-.led-wall {
+.led-wall, .calculator, .pastel-puzzles, .run-buddy  {
     width: 37%;
-}
-
-.calculator {
-    width: 37%;
+    
 }
 
 
-.pastel-puzzles {
-    width: 37%;
-}
+@media (max-width: 576px) {
 
-.run-buddy  {
-    width: 37%;
+  .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    width: 100%;
   }
+
+}
+
 
 .pictext {
   position: absolute;
@@ -123,30 +124,6 @@ figure a {
   color: white;
   font-size: small;
   padding: 5px;
-}
-
-.surf-report a {
-  position: relative;
-
-}
-
-.led-wall a {
-  position: relative;
-  padding: 0;
-  
-}
-
-.calculator a {
-  position: relative;
-  padding: 0;
-}
-
-.pastel-puzzles a {
-  position: relative;
-}
-
-.run-buddy a {
-  position: relative;
 }
 
 h2 {
@@ -197,23 +174,3 @@ h2 ul li a {
   color: #A1E3FF;
 }
 
-
-@media (max-width: 576px) {
-
-    .led-wall {
-        width: 100%;
-    }
-    
-    .calculator {
-        width: 100%;
-    }  
-
-    .pastel-puzzles {
-        width: 100%;
-    }
-    
-    .run-buddy  {
-        width: 100%;
-      }
-
- }
